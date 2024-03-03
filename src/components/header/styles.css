@@ -1,0 +1,56 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-bottom: 120px;
+
+  .photo {
+    max-width: 200px;
+    margin-bottom: 32px;
+  }
+
+  .name {
+    font-family: 'RobotoRegular', sans-serif;
+    font-weight: 400;
+    color: var(--white);
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 3px;
+  }
+
+  .work {
+    font-family: 'RobotoBold', sans-serif;
+    font-weight: 600;
+    color: var(--green);
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .contact-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    gap: 35px;
+
+    .contact {
+      transition: 0.3s;
+
+      .link {
+        .img {
+          width: 50px;
+          height: 50px;
+        }
+      }
+
+      &:hover {
+        cursor: pointer;
+        transform: scale(110%);
+      }
+    }
+  }
+}

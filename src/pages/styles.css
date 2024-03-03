@@ -1,0 +1,27 @@
+* {
+  font-family: 'RobotoRegular', sans-serif;
+  font-weight: 400;
+  color: var(--white);
+}
+
+body {
+  font-family: 'RobotoRegular', sans-serif;
+  font-weight: 400;
+  color: var(--white);
+  background-color: var(--black);
+  overflow-x: hidden;
+}
+
+.wrapper {
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  @media (width >= 576px) {
+    max-width: 540px;
+  }
+
+  @media (width >= 768px) {
+    max-width: 720px;
+  }
+}

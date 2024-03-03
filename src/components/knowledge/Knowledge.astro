@@ -1,0 +1,25 @@
+---
+import './styles.css'
+import { t } from 'i18next'
+import { knowledge } from '@/data/knoweledge'
+---
+
+<section class='container-knowledge'>
+  {
+    knowledge.map((knGroup) => {
+      return (
+        <ul class='group-knowledge'>
+          {knGroup.map((kn) => {
+            return (
+              <li class='knowledge'>
+                <a href={kn.link} target='_blank'>
+                  {t(kn.name)}
+                </a>
+              </li>
+            )
+          })}
+        </ul>
+      )
+    })
+  }
+</section>

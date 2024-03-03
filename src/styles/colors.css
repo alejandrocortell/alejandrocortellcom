@@ -1,0 +1,16 @@
+:root {
+  --green: #1de9b6;
+  --black: #292929;
+  --white: #e2e2e2;
+  --grey: #7d7d7d;
+}
+
+@font-face {
+  font-family: 'RobotoRegular';
+  src: url('/assets/fonts/Roboto-Regular.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'RobotoBold';
+  src: url('/assets/fonts/Roboto-Bold.ttf') format('ttf');
+}

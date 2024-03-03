@@ -1,0 +1,33 @@
+---
+import i18next, { t } from 'i18next'
+import '../styles/reset.css'
+import '../styles/colors.css'
+---
+
+<!doctype html>
+<html lang={i18next.language}>
+  <head>
+    <meta charset='UTF-8' />
+    <title>{t('title')} | {t('subtitle')}</title>
+    <meta name='description' content={t('meta-description')} />
+
+    <link rel='icon' type='image/x-icon' href='/favicon.ico' />
+    <link rel='canonical' href='https://alejandrocortell.com' />
+    <meta name='viewport' content='width=device-width' />
+
+    <meta name='keywords' content={t('meta-keywords')} />
+
+    <meta name='og:title' content=`${t('title')} | ${t('subtitle')}` />
+    <meta name='og:description' content={t('meta-description')} />
+    <meta name='og:url' content='https://alejandrocortell.com' />
+    <meta name='og:site_name' content={t('title')} />
+    <meta name='og:type' content='website' />
+    <meta name='og:locale' content={i18next.language} />
+
+    <meta name='robots' content='index, follow' />
+    <meta name='googlebot' content='index, follow' />
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>

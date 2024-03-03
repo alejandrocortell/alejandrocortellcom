@@ -1,0 +1,37 @@
+{
+  "title": "Alejandro Cortell",
+  "subtitle": "Web developer",
+
+  "description": "Based in sunny Valencia, Spain, I've been working remotely since 2020. Specializing in web development, I dive into tech like <span class='highlight'>React<span> and <span class='highlight'>React Native<span> since 2021.",
+  "description2": "I enjoy staying in the loop with the newest trends in tech to bring fresh ideas to my projects. Also, I've received recognition for my standout end-of-cycle project and have contributed to some open-source projects as well.",
+
+  "title-knowledge": "Knowledge",
+  "title-experience": "Experience",
+
+  "react": "react",
+  "react-native": "react-native",
+  "axios": "axios",
+  "redux": "redux",
+  "i18n": "i18n",
+  "react-router": "react-router",
+  "ffmpeg": "ffmpeg",
+  "nextjs": "nextjs",
+  "typescript": "react-router",
+  "cypress": "cypress",
+  "testing-library": "testing-library",
+  "express": "express",
+  "multer": "multer",
+  "sass": "sass",
+
+  "touchpix-time": "January 2023 - Present",
+  "touchpix-description": "Developing a leading mobile app for photo booths along with complementary web applications, such as an image editor and an online gallery. The app has millions of unique users, primarily in the American and Latin American markets.",
+  "tecdam-time": "June 2021 - December 2022",
+  "tecdam-description": "Developing web and mobile applications for international clients in various fields, such as real estate, law, festivals, and personal branding, using React, React-Native, vanilla JavaScript, and Node.js. The company was later acquired by Touchpix.",
+  "balterra-time": "April 2021 - May 2021",
+  "balterra-description": "Developing a capture point collection system from an external API, and providing support for internal tool configuration tasks.",
+  "flexo-time": "June 2016 - March 2021",
+  "flexo-description": "Worked as a specialized packaging designer for major brands in the country.",
+
+  "meta-description": "Web developer specialized in react and react-native",
+  "meta-keywords": "Alejandro Cortell, web developer, react, react-native"
+}

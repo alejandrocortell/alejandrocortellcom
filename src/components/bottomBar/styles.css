@@ -1,0 +1,8 @@
+.bottom-bar {
+  width: 100vw;
+  height: 7px;
+  background-color: var(--green);
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+}

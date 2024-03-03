@@ -1,0 +1,15 @@
+---
+import './styles.css'
+import i18next from 'i18next'
+---
+
+<nav class='language-selector-container'>
+  <ul class='language-selector'>
+    <li>
+      <a class=`language ${i18next.language === 'es' ? 'selected' : ''}` href='/es'>es</a>
+    </li>
+    <li>
+      <a class=`language ${i18next.language === 'en' ? 'selected' : ''}` href='/'>en</a>
+    </li>
+  </ul>
+</nav>

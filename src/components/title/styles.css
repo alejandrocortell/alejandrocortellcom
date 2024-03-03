@@ -1,0 +1,40 @@
+.container-title {
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+
+  display: inherit;
+
+  @media (width >= 768px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .title-h2 {
+    display: inline;
+    background-color: var(--black);
+    padding-right: 10px;
+    padding-left: 0px;
+    color: var(--white);
+    font-size: 1.6rem;
+    text-transform: uppercase;
+
+    @media (width >= 768px) {
+      padding-left: 10px;
+    }
+  }
+
+  .title-bar {
+    position: relative;
+    z-index: -1;
+    background-color: var(--green);
+    height: 7px;
+    display: block;
+    transform: translateY(-1.05rem);
+
+    @media (width >= 768px) {
+      width: 100%;
+    }
+  }
+}
