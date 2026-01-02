@@ -1,6 +1,12 @@
-import { defineConfig } from 'astro/config'
-import astroI18next from 'astro-i18next'
+import { defineConfig } from "astro/config";
 
 export default defineConfig({
-  integrations: [astroI18next()],
-})
+  i18n: {
+    locales: ["en", "es"],
+    defaultLocale: "en",
+
+    routing: {
+      prefixDefaultLocale: false,
+    },
+  },
+});

@@ -1,0 +1,41 @@
+---
+// import "./styles.css";
+import { getLangFromUrl, useTranslations } from "@/i18n/i18n";
+import BottomBar from "@/components/bottomBar/BottomBar.astro";
+import Description from "@/components/description/Description.astro";
+import Experience from "@/components/experience/Experience.astro";
+import Footer from "@/components/footer/Footer.astro";
+import Header from "@/components/header/Header.astro";
+import Knowledge from "@/components/knowledge/Knowledge.astro";
+import LanguageSelector from "@/components/languageSelector/LanguageSelector.astro";
+import Layout from "@/layouts/Layout.astro";
+import Title from "@/components/title/Title.astro";
+
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+
+export async function getStaticPaths() {
+  return [
+    { params: { locale: 'en' } },
+    { params: { locale: 'es' } },
+  ];
+}
+---
+
+<Layout>
+  <LanguageSelector />
+  <div class='wrapper'>
+    <Header />
+    <Description />
+
+    <Title title={t('title-experience')} />
+    <!-- <Experience /> -->
+
+    <!-- <Title title={t('title-knowledge')} /> -->
+    <!-- <Knowledge /> -->
+
+    <Footer />
+    <BottomBar />
+  </div>
+</Layout>

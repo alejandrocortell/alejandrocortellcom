@@ -1,4 +1,5 @@
-{
+// prettier-ignore
+export const es = {
   "title": "Alejandro Cortell",
   "subtitle": "Desarrollador Full Stack | React, Next.js & Node.js",
 
@@ -32,5 +33,5 @@
   "flexo-time": "Junio 2016 - Marzo 2021",
   "flexo-description": "Diseñador especializado en packaging trabajando para las principales marcas del país.",
   "meta-description": "Desarrollador web especializado en react y react-native",
-  "meta-keywords": "Alejandro Cortell, desarrollador web, programador web, react, react-native"
-}
+  "meta-keywords": "Alejandro Cortell, desarrollador web, programador web, react, react-native",
+};
