@@ -11,26 +11,22 @@ import LanguageSelector from "@/components/languageSelector/LanguageSelector.ast
 import Layout from "@/layouts/Layout.astro";
 import Title from "@/components/title/Title.astro";
 
-
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 
 export async function getStaticPaths() {
-  return [
-    { params: { locale: 'en' } },
-    { params: { locale: 'es' } },
-  ];
+  return [{ params: { locale: "en" } }, { params: { locale: "es" } }];
 }
 ---
 
 <Layout>
   <LanguageSelector />
-  <div class='wrapper'>
+  <div class="wrapper">
     <Header />
     <Description />
 
-    <Title title={t('title-experience')} />
-    <!-- <Experience /> -->
+    <Title title={t("title-experience")} />
+    <Experience />
 
     <!-- <Title title={t('title-knowledge')} /> -->
     <!-- <Knowledge /> -->

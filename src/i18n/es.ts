@@ -25,13 +25,32 @@ export const es = {
 
   "touchpix-title": "Full Stack Developer | Touchpix",
   "touchpix-time": "Enero 2023 - Actualidad",
-  "touchpix-description": "Desarrollo de app móvil líder en el sector de los fotomatones y las aplicaciones web complementarias como el editor de imágenes o la galería online. Millones de usuarios únicos principalmente en el mercado Estadounidense y Latinoamericano.",
+  "touchpix-description": `
+  <ul>
+    <li>
+      <strong>Desarrollo Web Core:</strong> Liderazgo técnico en el <strong>Creador de Eventos</strong> (plataforma central de configuración) y aplicaciones críticas como editores de imagen y galerías online para <strong>millones de usuarios únicos</strong>. Orientado a un mercado global con foco principal en <strong>Estados Unidos</strong>.
+    </li>
+    <li>
+      <strong>Implementación Integral:</strong> Capacidad para transformar objetivos de negocio en realidades técnicas. Ante una nueva necesidad, asumo la ejecución completa del ciclo: diseño de la lógica en el <strong>backend</strong>, implementación en el <strong>frontend</strong> y coordinación de requerimientos con el resto del equipo.
+    </li>
+    <li>
+      <strong>Backend &amp; Infraestructura:</strong> Diseño de APIs con <strong>Node.js/Express</strong>, gestión de bases de datos (<strong>PostgreSQL/MySQL</strong>) e integración de pasarelas de pago (<strong>Stripe</strong>).
+    </li>
+    <li>
+      <strong>Ingeniería Multimedia (FFmpeg):</strong> Desarrollo de un sistema de procesado avanzado con <strong>más de 50 efectos</strong>, incluyendo collages, boomerangs, slow motion, overlays y transiciones (fade in/out).
+    </li>
+    <li>
+      <strong>Hito Mobile (2023):</strong> Durante un año, lideré el desarrollo y lanzamiento a producción de la app Android líder del sector (<strong>React Native</strong>), estableciendo su arquitectura y publicando múltiples versiones estables utilizadas masivamente a nivel mundial.
+    </li>
+  </ul>
+  `,
+  "tecdam-title": "Web & Mobile Developer | Tecdam (Adquirida por Touchpix)",
   "tecdam-time": "Junio 2021 - Diciembre 2022",
-  "tecdam-description": "Desarrollo de aplicaciones web y móviles para clientes internacionales de diferentes ámbitos como inmobiliarias, legales, festivales, marca personal, etc. Desarrollo con react, react-native, JavaScript vanilla y NodeJs. Compañía adquirida por Touchpix.",
-  "balterra-time": "Abril 2021 - Mayo 2021",
-  "balterra-description": "Desarrollo sistema de recogida de puntos de captura desde una API externa. Apoyo en tareas de configuración de aplicaciones internas.",
-  "flexo-time": "Junio 2016 - Marzo 2021",
-  "flexo-description": "Diseñador especializado en packaging trabajando para las principales marcas del país.",
+  "tecdam-description": `
+  <ul>
+    <li>Desarrollo de aplicaciones web y móviles para clientes internacionales de diferentes ámbitos como inmobiliarias, legales, festivales, marca personal, etc.</li>
+  </ul>
+  `,
   "meta-description": "Desarrollador web especializado en react y react-native",
   "meta-keywords": "Alejandro Cortell, desarrollador web, programador web, react, react-native",
 };

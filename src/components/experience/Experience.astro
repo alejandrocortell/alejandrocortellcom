@@ -1,21 +1,34 @@
 ---
-import './styles.css'
-import { t } from 'i18next'
-import { experiences } from '@/data/experiences'
+import "./styles.css";
+import { getLangFromUrl, useTranslations } from "@/i18n/i18n";
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
 ---
 
-<section class='container-experience'>
-  {
-    experiences.map((exp) => {
-      return (
-        <div class='experience'>
-          <img class='company' loading='lazy' src={exp.img} alt={exp['alt-img']} />
-          <div class='col'>
-            <p class='time'>{t(exp.time)}</p>
-            <p class='description'>{t(exp.description)}</p>
-          </div>
-        </div>
-      )
-    })
-  }
+<section class="container-experience">
+  <div class="experience">
+    <img
+      class="company"
+      loading="lazy"
+      src={"/assets/img/Touchpix.png"}
+      alt={"Touchpix"}
+    />
+    <div class="col">
+      <p class="time">{t("touchpix-time")}</p>
+      <p class="description" set:html={t("touchpix-description")} />
+    </div>
+  </div>
+  <div class="experience">
+    <img
+      class="company"
+      loading="lazy"
+      src={"/assets/img/Tecdam.svg"}
+      alt={"Tecdam"}
+    />
+    <div class="col">
+      <p class="time">{t("tecdam-time")}</p>
+      <p class="description" set:html={t("tecdam-description")} />
+    </div>
+  </div>
 </section>
