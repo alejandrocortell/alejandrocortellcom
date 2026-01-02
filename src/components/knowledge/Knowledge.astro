@@ -1,11 +1,13 @@
 ---
-import './styles.css'
-import { t } from 'i18next'
-import { knowledge } from '@/data/knoweledge'
+import "./styles.css";
+import { getLangFromUrl, useTranslations } from "@/i18n/i18n";
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
 ---
 
-<section class='container-knowledge'>
-  {
+<section class="container-knowledge">
+  <!-- {
     knowledge.map((knGroup) => {
       return (
         <ul class='group-knowledge'>
@@ -21,5 +23,22 @@ import { knowledge } from '@/data/knoweledge'
         </ul>
       )
     })
-  }
+  } -->
+
+  <div class="group-knowledge">
+    <h3>{t("kn-frontend")}</h3>
+    <div set:html={t("tools-frontend")} />
+  </div>
+  <div class="group-knowledge">
+    <h3>{t("kn-backend")}</h3>
+    <div set:html={t("tools-backend")} />
+  </div>
+  <div class="group-knowledge">
+    <h3>{t("kn-mobile")}</h3>
+    <div set:html={t("tools-mobile")} />
+  </div>
+  <div class="group-knowledge">
+    <h3>{t("kn-tools")}</h3>
+    <div set:html={t("tools-tools")} />
+  </div>
 </section>
