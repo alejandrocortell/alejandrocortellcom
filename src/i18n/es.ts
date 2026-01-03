@@ -1,7 +1,8 @@
 // prettier-ignore
 export const es = {
   "title": "Alejandro Cortell",
-  "subtitle": "Desarrollador Full Stack | React, Next.js & Node.js",
+  "pre-title": "Desarrollador Full Stack",
+  "subtitle": "Desarrollo soluciones Full Stack de alto impacto. Especialista en el ecosistema TypeScript, combino ingeniería técnica con visión de producto y diseño para crear experiencias que escalan a millones de usuarios.",
 
   "description": "Ubicado en la soleada Valencia y trabajando en remoto desde 2020. Mi valor reside en la intersección entre el código sólido y la <span class='highlight'>visión de producto</span>. Con un stack centrado en <span class='highlight'>TypeScript</span>, desarrollo soluciones web completas (Front y Back) que actualmente dan servicio a <span class='highlight'>millones de usuarios</span>. Mi pasado como diseñador me permite ser autónomo en la toma de decisiones visuales y de UX, asegurando que cada funcionalidad sea técnica y estéticamente impecable.",
 
