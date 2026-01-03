@@ -1,11 +1,16 @@
 ---
-import './styles.css'
+import "./styles.css";
 import { getLangFromUrl, useTranslations } from "@/i18n/i18n";
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 ---
 
-<section class='description'>
-  <p set:html={t('description')} />
+<section class="description">
+  <img
+    class="profile-img"
+    src="/assets/img/Alejandro-Cortell.webp"
+    alt="Alejandro Cortell"
+  />
+  <div set:html={t("description")} />
 </section>

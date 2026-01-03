@@ -7,7 +7,7 @@
   background: radial-gradient(
     circle,
     var(--green-gradient) 0%,
-    var(--black) 80%
+    var(--black) 65%
   );
 
   .wrapper {

@@ -5,10 +5,19 @@ export const es = {
   "subtitle": "Desarrollo soluciones Full Stack de alto impacto. Especialista en el ecosistema TypeScript, combino ingeniería técnica con visión de producto y diseño para crear experiencias que escalan a millones de usuarios.",
   "cta": "Conecta en LinkedIn",
 
-  "description": "Ubicado en la soleada Valencia y trabajando en remoto desde 2020. Mi valor reside en la intersección entre el código sólido y la <span class='highlight'>visión de producto</span>. Con un stack centrado en <span class='highlight'>TypeScript</span>, desarrollo soluciones web completas (Front y Back) que actualmente dan servicio a <span class='highlight'>millones de usuarios</span>. Mi pasado como diseñador me permite ser autónomo en la toma de decisiones visuales y de UX, asegurando que cada funcionalidad sea técnica y estéticamente impecable.",
-
+  "title-about": "Sobre Mí",
   "title-knowledge": "Conocimientos Técnicos",
   "title-experience": "Experiencia Profesional",
+
+  "description": `
+    <p>
+      Afincado en la soleada Valencia, llevo trabajando en remoto desde 2020. Me muevo en ese punto donde el <span class='highlight'>código sólido</span> se encuentra con el sentido común y la <span class='highlight'>capacidad de resolución</span>: no solo pico código, me gusta entender el objetivo detrás de cada funcionalidad y proponer la mejor forma de aterrizarla.
+    </p>
+
+    <p>
+      Soy de naturaleza curiosa y me gusta estar al tanto de las últimas tecnologías para ver cómo pueden mejorar el producto. Además, mi pasado como <span class='highlight'>diseñador</span> es mi "arma secreta"; me da la autonomía necesaria para tomar decisiones de UX sobre la marcha, asegurando que el resultado sea tan robusto por dentro como pulido por fuera.
+    </p>
+  `,
 
   "kn-frontend": "Frontend",
   "kn-backend": "Backend",
