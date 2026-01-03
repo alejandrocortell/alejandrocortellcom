@@ -4,7 +4,6 @@
   align-items: center;
   flex-direction: column;
   min-height: 100dvh;
-  /* background-color: lightcoral; */
   background: radial-gradient(
     circle,
     var(--green-gradient) 0%,
@@ -33,81 +32,55 @@
       padding: 8px 16px;
       background-color: var(--black-2);
       border-radius: 25px;
-      font-family: "RobotoMedium", sans-serif;
       font-weight: 400;
       color: var(--green);
-      font-size: 1rem;
+      font-size: 0.8rem;
+      text-align: center;
       text-transform: uppercase;
       margin-bottom: 40px;
       border: 0.5px solid var(--grey);
       order: -1;
+
+      @media (width >= 576px) {
+        font-size: 0.9rem;
+      }
+
+      @media (width >= 768px) {
+        font-size: 1rem;
+      }
     }
 
     .name {
-      font-family: "RobotoBold", sans-serif;
-      font-weight: 700;
+      font-weight: 600;
       color: var(--white);
-      font-size: 2.5rem;
-      text-transform: uppercase;
+      font-size: 3rem;
       text-align: center;
       margin-bottom: 30px;
 
+      @media (width >= 576px) {
+        font-size: 4rem;
+      }
+
+      @media (width >= 768px) {
+        font-size: 5rem;
+      }
+
       .highlight {
-        font-weight: 600;
         color: var(--green);
       }
     }
 
     .subtitle {
-      font-family: "RobotoRegular", sans-serif;
       font-weight: 300;
       color: var(--grey);
-      font-size: 1rem;
+      font-size: 0.85rem;
       text-align: center;
       line-height: 1.5;
-    }
-  }
+      max-width: 600px;
 
-  /* .name {
-    font-family: "RobotoRegular", sans-serif;
-    font-weight: 400;
-    color: var(--white);
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    text-align: center;
-    margin-bottom: 3px;
-  }
-
-  .work {
-    font-family: "RobotoBold", sans-serif;
-    font-weight: 600;
-    color: var(--green);
-    font-size: 2rem;
-    text-transform: uppercase;
-    text-align: center;
-  }
-
-  .contact-list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 35px;
-    gap: 35px;
-
-    .contact {
-      transition: 0.3s;
-
-      .link {
-        .img {
-          width: 50px;
-          height: 50px;
-        }
-      }
-
-      &:hover {
-        cursor: pointer;
-        transform: scale(110%);
+      @media (width >= 576px) {
+        font-size: 1rem;
       }
     }
-  } */
+  }
 }

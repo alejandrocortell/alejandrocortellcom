@@ -1,11 +1,11 @@
 * {
-  font-family: 'RobotoRegular', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   color: var(--white);
 }
 
 body {
-  font-family: 'RobotoRegular', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   color: var(--white);
   background-color: var(--black);
