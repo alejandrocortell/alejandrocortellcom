@@ -1,4 +1,7 @@
 .language-selector-container {
+  position: absolute;
+  top: 0;
+  right: 0;
   margin: auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -33,41 +36,16 @@
       position: relative;
       text-decoration: none;
 
+      background-image: linear-gradient(var(--grey), var(--grey));
+      background-repeat: no-repeat;
+      background-position: left bottom;
+      background-size: 0% 7.5px;
+      transition: background-size 0.2s ease;
+
+      &:hover,
       &.selected {
-        &:after {
-          z-index: -1;
-          background: none repeat scroll 0 0 transparent;
-          bottom: 0;
-          content: '';
-          display: block;
-          height: 7.5px;
-          position: absolute;
-          background: var(--grey);
-          width: 100%;
-        }
-      }
-
-      &:after {
-        z-index: -1;
-        background: none repeat scroll 0 0 transparent;
-        bottom: 0;
-        content: '';
-        display: block;
-        height: 0px;
-        position: absolute;
-        background: var(--grey);
-        transition: height 0.2s ease 0s;
-        width: 100%;
-      }
-
-      &:hover {
         cursor: pointer;
-        text-decoration: none;
-
-        &:after {
-          height: 7.5px;
-          left: 0;
-        }
+        background-size: 100% 7.5px;
       }
     }
   }
