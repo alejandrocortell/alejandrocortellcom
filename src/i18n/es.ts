@@ -3,6 +3,7 @@ export const es = {
   "title": "Alejandro <span class='highlight'>Cortell</span>",
   "title-badge": "Desarrollador Full Stack",
   "subtitle": "Desarrollo soluciones Full Stack de alto impacto. Especialista en el ecosistema TypeScript, combino ingeniería técnica con visión de producto y diseño para crear experiencias que escalan a millones de usuarios.",
+  "cta": "Conecta en LinkedIn",
 
   "description": "Ubicado en la soleada Valencia y trabajando en remoto desde 2020. Mi valor reside en la intersección entre el código sólido y la <span class='highlight'>visión de producto</span>. Con un stack centrado en <span class='highlight'>TypeScript</span>, desarrollo soluciones web completas (Front y Back) que actualmente dan servicio a <span class='highlight'>millones de usuarios</span>. Mi pasado como diseñador me permite ser autónomo en la toma de decisiones visuales y de UX, asegurando que cada funcionalidad sea técnica y estéticamente impecable.",
 

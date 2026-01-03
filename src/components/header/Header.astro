@@ -12,16 +12,13 @@ const t = useTranslations(lang);
     <h1 class="name" set:html={t("title")} />
     <h2 class="badge">{t("title-badge")}</h2>
     <p class="subtitle" set:html={t("subtitle")} />
-    <ul class="contact-list">
-      <li class="contact">
-        <a
-          href="https://www.linkedin.com/in/alejandrocortell/"
-          target="_blank"
-          class="link"
-        >
-          <img src="/assets/img/in.svg" alt="Linkedin" class="img" />
-        </a>
-      </li>
-    </ul>
+    <a
+      href="https://www.linkedin.com/in/alejandrocortell/"
+      target="_blank"
+      class="link"
+    >
+      <img src="/assets/img/linkedin.svg" alt="Linkedin" class="img" />
+      {t("cta")}
+    </a>
   </div>
 </header>
