@@ -96,12 +96,18 @@
       color: var(--black);
       font-size: 1rem;
       text-decoration: none;
+      transition: all 0.3s ease;
 
       .img {
         width: 16px;
         height: 16px;
         margin-right: 10px;
       }
+    }
+
+    .link:hover {
+      transform: translateY(-1px) scale(1.02);
+      filter: drop-shadow(0 10px 18px rgba(0, 0, 0, 0.35));
     }
   }
 }
