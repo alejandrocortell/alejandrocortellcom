@@ -1,5 +1,5 @@
 ---
-import './styles.css'
+import "./styles.css";
 
 import { getLangFromUrl, useTranslations } from "@/i18n/i18n";
 
@@ -7,20 +7,21 @@ const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 ---
 
-<header class='header'>
-  <img class='photo' src='/assets/img/Alejandro-Cortell.png' alt='Alejandro Cortell Foto' />
-  <h1 class='name'>{t('title')}</h1>
-  <h2 class='work'>{t('subtitle')}</h2>
-  <ul class='contact-list'>
-    <li class='contact'>
-      <a href='https://www.linkedin.com/in/alejandrocortell/' target='_blank' class='link'>
-        <img src='/assets/img/in.svg' alt='Linkedin' class='img' />
-      </a>
-    </li>
-    <li class='contact'>
-      <a href='https://github.com/alejandrocortell' target='_blank' class='link'>
-        <img src='/assets/img/github.svg' alt='Github' class='img' />
-      </a>
-    </li>
-  </ul>
+<header class="header">
+  <div class="wrapper">
+    <h1 class="name" set:html={t("title")} />
+    <h2 class="badge">{t("title-badge")}</h2>
+    <p class="subtitle" set:html={t("subtitle")} />
+    <ul class="contact-list">
+      <li class="contact">
+        <a
+          href="https://www.linkedin.com/in/alejandrocortell/"
+          target="_blank"
+          class="link"
+        >
+          <img src="/assets/img/in.svg" alt="Linkedin" class="img" />
+        </a>
+      </li>
+    </ul>
+  </div>
 </header>

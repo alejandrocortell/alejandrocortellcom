@@ -3,16 +3,73 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 100px;
-  margin-bottom: 120px;
+  min-height: 100dvh;
+  /* background-color: lightcoral; */
+  background: radial-gradient(
+    circle,
+    var(--green-gradient) 0%,
+    var(--black) 80%
+  );
 
-  .photo {
-    max-width: 200px;
-    margin-bottom: 32px;
+  .wrapper {
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    @media (width >= 576px) {
+      max-width: 540px;
+    }
+
+    @media (width >= 768px) {
+      max-width: 720px;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 8px 16px;
+      background-color: var(--black-2);
+      border-radius: 25px;
+      font-family: "RobotoMedium", sans-serif;
+      font-weight: 400;
+      color: var(--green);
+      font-size: 1rem;
+      text-transform: uppercase;
+      margin-bottom: 40px;
+      border: 0.5px solid var(--grey);
+      order: -1;
+    }
+
+    .name {
+      font-family: "RobotoBold", sans-serif;
+      font-weight: 700;
+      color: var(--white);
+      font-size: 2.5rem;
+      text-transform: uppercase;
+      text-align: center;
+      margin-bottom: 30px;
+
+      .highlight {
+        font-weight: 600;
+        color: var(--green);
+      }
+    }
+
+    .subtitle {
+      font-family: "RobotoRegular", sans-serif;
+      font-weight: 300;
+      color: var(--grey);
+      font-size: 1rem;
+      text-align: center;
+      line-height: 1.5;
+    }
   }
 
-  .name {
-    font-family: 'RobotoRegular', sans-serif;
+  /* .name {
+    font-family: "RobotoRegular", sans-serif;
     font-weight: 400;
     color: var(--white);
     font-size: 1.5rem;
@@ -22,7 +79,7 @@
   }
 
   .work {
-    font-family: 'RobotoBold', sans-serif;
+    font-family: "RobotoBold", sans-serif;
     font-weight: 600;
     color: var(--green);
     font-size: 2rem;
@@ -52,5 +109,5 @@
         transform: scale(110%);
       }
     }
-  }
+  } */
 }

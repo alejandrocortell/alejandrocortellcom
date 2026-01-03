@@ -12,7 +12,7 @@ const t = useTranslations(lang);
 <html lang={lang}>
   <head>
     <meta charset="UTF-8" />
-    <title>{t("title")} | {t("subtitle")}</title>
+    <title>{t("meta-title")}</title>
     <meta name="description" content={t("meta-description")} />
 
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
@@ -21,10 +21,10 @@ const t = useTranslations(lang);
 
     <meta name="keywords" content={t("meta-keywords")} />
 
-    <meta name="og:title" content=`${t('title')} | ${t('subtitle')}` />
+    <meta name="og:title" content={t("meta-title")} />
     <meta name="og:description" content={t("meta-description")} />
     <meta name="og:url" content="https://alejandrocortell.com" />
-    <meta name="og:site_name" content={t("title")} />
+    <meta name="og:site_name" content={t("meta-title")} />
     <meta name="og:type" content="website" />
     <meta name="og:locale" content={lang} />
 

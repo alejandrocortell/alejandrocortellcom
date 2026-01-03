@@ -1,9 +1,11 @@
 :root {
   --green: #1de9b6;
   /* --green: #0bdccf; */
+  --green-gradient: rgba(29, 233, 182, 0.1);
   --black: #1e1e1e;
+  --black-2: #202827;
   --white: #e2e2e2;
-  --grey: #7d7d7d;
+  --grey: #88909b;
 }
 
 @font-face {
