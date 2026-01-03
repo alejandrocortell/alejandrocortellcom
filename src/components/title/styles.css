@@ -29,7 +29,7 @@
     position: relative;
     z-index: -1;
     background-color: var(--green);
-    height: 7px;
+    height: 4px;
     display: block;
     transform: translateY(-1.05rem);
 
