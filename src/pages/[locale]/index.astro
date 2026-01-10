@@ -1,5 +1,6 @@
 ---
 import { getLangFromUrl, useTranslations } from "@/i18n/i18n";
+import Background from "@/components/background/Background.astro";
 import BottomBar from "@/components/bottomBar/BottomBar.astro";
 import Description from "@/components/description/Description.astro";
 import Experience from "@/components/experience/Experience.astro";
@@ -32,5 +33,6 @@ export async function getStaticPaths() {
 
     <Footer />
     <BottomBar />
+    <Background />
   </div>
 </Layout>

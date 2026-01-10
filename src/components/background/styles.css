@@ -1,0 +1,30 @@
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100dvw;
+  height: 100dvh;
+  z-index: -1;
+  background: radial-gradient(
+    circle,
+    var(--green-gradient) 0%,
+    var(--black) 60%
+  );
+}
+
+/* overlay to fade the bottom edge into the page using a linear gradient */
+.background::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 22vh;
+  pointer-events: none;
+  background: linear-gradient(
+    to bottom,
+
+    transparent 50%,
+    var(--black) 100%
+  );
+}
