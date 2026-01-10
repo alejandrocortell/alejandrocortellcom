@@ -1,28 +1,28 @@
 // prettier-ignore
-export const en ={
+export const en = {
   "title": "Alejandro <span class='highlight'>Cortell</span>",
-  "title-badge": "Desarrollador Full Stack",
-  "subtitle": "Desarrollo soluciones Full Stack de alto impacto. Especialista en el ecosistema TypeScript, combino ingeniería técnica con visión de producto y diseño para crear experiencias que escalan a millones de usuarios.",
-  "cta": "Conecta en LinkedIn",
+  "title-badge": "Full Stack Developer",
+  "subtitle": "I build high-impact Full Stack solutions. Specializing in the TypeScript ecosystem, I combine technical engineering with product vision and design to create experiences that scale to millions of users.",
+  "cta": "Connect on LinkedIn",
 
-  "title-about": "Sobre Mí",
-  "title-knowledge": "Conocimientos Técnicos",
-  "title-experience": "Experiencia Profesional",
+  "title-about": "About Me",
+  "title-knowledge": "Technical Skills",
+  "title-experience": "Professional Experience",
 
   "description": `
     <p>
-      Afincado en la soleada Valencia, llevo trabajando en remoto desde 2020. Me muevo en ese punto donde el <span class='highlight'>código sólido</span> se encuentra con el sentido común y la <span class='highlight'>capacidad de resolución</span>: no solo pico código, me gusta entender el objetivo detrás de cada funcionalidad y proponer la mejor forma de aterrizarla.
+      Based in sunny Valencia, I’ve been working remotely since 2020. I thrive at the intersection where <span class='highlight'>solid code</span> meets common sense and <span class='highlight'>problem-solving</span>: I don't just write code; I like to understand the "why" behind every feature to find the best way to bring it to life.
     </p>
 
     <p>
-      Soy de naturaleza curiosa y me gusta estar al tanto de las últimas tecnologías para ver cómo pueden mejorar el producto. Además, mi pasado como <span class='highlight'>diseñador</span> es mi "arma secreta"; me da la autonomía necesaria para tomar decisiones de UX sobre la marcha, asegurando que el resultado sea tan robusto por dentro como pulido por fuera.
+      I’m naturally curious and love keeping up with the latest tech to see how it can improve a product. Plus, my background as a <span class='highlight'>designer</span> is my "secret weapon"—it gives me the independence to make UX decisions on the fly, ensuring the result is as robust on the inside as it is polished on the outside.
     </p>
   `,
 
   "kn-frontend": "Frontend",
   "kn-backend": "Backend",
   "kn-mobile": "Mobile",
-  "kn-tools": "Herramientas",
+  "kn-tools": "Tools",
 
   "tools-frontend": `
     <ul>
@@ -56,34 +56,34 @@ export const en ={
   `,
 
   "touchpix-title": "Full Stack Developer | Touchpix",
-  "touchpix-time": "Enero 2023 - Actualidad",
+  "touchpix-time": "January 2023 - Present",
   "touchpix-description": `
     <ul>
       <li>
-        <strong>Desarrollo Web Core:</strong> Liderazgo técnico en el <strong>Creador de Eventos</strong> (plataforma central de configuración) y aplicaciones críticas como editores de imagen y galerías online para <strong>millones de usuarios únicos</strong>. Orientado a un mercado global con foco principal en <strong>Estados Unidos</strong>.
+        <strong>Core Web Development:</strong> Technical lead for the <strong>Event Designer</strong> (the central config platform) and critical apps like image editors and online galleries for <strong>millions of unique users</strong>. Focused on a global market with a primary emphasis on the <strong>United States</strong>.
       </li>
       <li>
-        <strong>Implementación Integral:</strong> Capacidad para transformar objetivos de negocio en realidades técnicas. Ante una nueva necesidad, asumo la ejecución completa del ciclo: diseño de la lógica en el <strong>backend</strong>, implementación en el <strong>frontend</strong> y coordinación de requerimientos con el resto del equipo.
+        <strong>End-to-End Implementation:</strong> Skilled at turning business goals into technical reality. When a new need arises, I handle the full cycle: designing the <strong>backend</strong> logic, building the <strong>frontend</strong>, and coordinating requirements with the team.
       </li>
       <li>
-        <strong>Backend &amp; Infraestructura:</strong> Diseño de APIs con <strong>Node.js/Express</strong>, gestión de bases de datos (<strong>PostgreSQL/MySQL</strong>) e integración de pasarelas de pago (<strong>Stripe</strong>).
+        <strong>Backend &amp; Infrastructure:</strong> Designing APIs with <strong>Node.js/Express</strong>, database management (<strong>PostgreSQL/MySQL</strong>), and payment gateway integration (<strong>Stripe</strong>).
       </li>
       <li>
-        <strong>Ingeniería Multimedia (FFmpeg):</strong> Desarrollo de un sistema de procesado avanzado con <strong>más de 50 efectos</strong>, incluyendo collages, boomerangs, slow motion, overlays y transiciones (fade in/out).
+        <strong>Multimedia Engineering (FFmpeg):</strong> Developed an advanced processing system with <strong>over 50 effects</strong>, including collages, boomerangs, slow motion, overlays, and transitions.
       </li>
       <li>
-        <strong>Hito Mobile (2023):</strong> Durante un año, lideré el desarrollo y lanzamiento a producción de la app Android líder del sector (<strong>React Native</strong>), estableciendo su arquitectura y publicando múltiples versiones estables utilizadas masivamente a nivel mundial.
+        <strong>Mobile Milestone (2023):</strong> For one year, I led the development and production launch of the industry-leading Android app (<strong>React Native</strong>), setting up its architecture and releasing multiple stable versions used worldwide.
       </li>
     </ul>
   `,
-  "tecdam-title": "Web & Mobile Developer | Tecdam (Adquirida por Touchpix)",
-  "tecdam-time": "Junio 2021 - Diciembre 2022",
+  "tecdam-title": "Web & Mobile Developer | Tecdam (Acquired by Touchpix)",
+  "tecdam-time": "June 2021 - December 2022",
   "tecdam-description": `
     <ul>
-      <li>Desarrollo de aplicaciones web y móviles para clientes internacionales de diferentes ámbitos como inmobiliarias, legales, festivales, marca personal, etc.</li>
+      <li>Developed web and mobile applications for international clients across various sectors, including real estate, legal services, festivals, and personal branding.</li>
     </ul>
   `,
-  "meta-title": "Alejandro Cortell - Desarrollador Web Full Stack",
-  "meta-description": "Desarrollador web especializado en react y react-native",
-  "meta-keywords": "Alejandro Cortell, desarrollador web, programador web, react, react-native",
+  "meta-title": "Alejandro Cortell - Full Stack Web Developer",
+  "meta-description": "Web developer specializing in React and React Native",
+  "meta-keywords": "Alejandro Cortell, web developer, software engineer, react, react-native",
 };
