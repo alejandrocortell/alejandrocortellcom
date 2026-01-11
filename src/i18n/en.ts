@@ -11,7 +11,7 @@ export const en = {
 
   "description": `
     <p>
-      Based in sunny Valencia, I’ve been working remotely since 2020. I thrive at the intersection where <span class='highlight'>solid code</span> meets common sense and <span class='highlight'>problem-solving</span>: I don't just write code; I like to understand the "why" behind every feature to find the best way to bring it to life.
+      Based in sunny Valencia, I’ve been working remotely since 2020. I move at the intersection where <span class='highlight'>solid code</span> meets common sense and <span class='highlight'>problem-solving</span>: I don't just write code; I like to understand the "why" behind every feature to find the best way to bring it to life.
     </p>
 
     <p>
@@ -72,7 +72,7 @@ export const en = {
         <strong>Multimedia Engineering (FFmpeg):</strong> Developed an advanced processing system with <strong>over 50 effects</strong>, including collages, boomerangs, slow motion, overlays, and transitions.
       </li>
       <li>
-        <strong>Mobile Milestone (2023):</strong> For one year, I led the development and production launch of the industry-leading Android app (<strong>React Native</strong>), setting up its architecture and releasing multiple stable versions used worldwide.
+        <strong>Mobile Milestone (2023):</strong> For one year, I worked on the development and production launch of the industry-leading Android app (<strong>React Native</strong>), setting up its architecture and releasing multiple stable versions used worldwide.
       </li>
     </ul>
   `,

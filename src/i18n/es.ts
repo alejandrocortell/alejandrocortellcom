@@ -72,7 +72,7 @@ export const es = {
         <strong>Ingeniería Multimedia (FFmpeg):</strong> Desarrollo de un sistema de procesado avanzado con <strong>más de 50 efectos</strong>, incluyendo collages, boomerangs, slow motion, overlays y transiciones (fade in/out).
       </li>
       <li>
-        <strong>Hito Mobile (2023):</strong> Durante un año, lideré el desarrollo y lanzamiento a producción de la app Android líder del sector (<strong>React Native</strong>), estableciendo su arquitectura y publicando múltiples versiones estables utilizadas masivamente a nivel mundial.
+        <strong>Hito Mobile (2023):</strong> Durante un año, trabajé el desarrollo y lanzamiento a producción de la app Android líder del sector (<strong>React Native</strong>), estableciendo su arquitectura y publicando múltiples versiones estables utilizadas masivamente a nivel mundial.
       </li>
     </ul>
   `,
